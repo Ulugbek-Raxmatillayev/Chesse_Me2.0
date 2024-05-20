@@ -13,6 +13,10 @@
             padding: 0 1rem;
             border-right: 1px solid #F4F0E6;
             align-items: center;
+
+            .list_item{
+                cursor: pointer;
+            }
         }
 
         .header_ul_list {
@@ -24,6 +28,7 @@
             padding-right: 1rem;
 
             .list_item {
+                cursor: pointer;
                 span {
                     font-size: 16px;
                     letter-spacing: .5px;
@@ -41,6 +46,11 @@
                     color: #FD9339;
                     display: $d-flex;
                     align-items: center;
+
+                    &:hover{
+                        background: #FD9339;
+                        color: $light_color;
+                    }
 
                     span {
                         font-size: 12px;
