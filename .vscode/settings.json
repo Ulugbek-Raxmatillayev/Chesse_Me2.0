@@ -6,5 +6,6 @@
       "savePath": "/css",
       "savePathReplacementPairs": null
     }
-  ]
+  ],
+  "compile-hero.disable-compile-files-on-did-save-code": true
 }
