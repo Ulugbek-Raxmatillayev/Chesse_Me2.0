@@ -26,7 +26,6 @@ button {
   max-width: 1680px;
   height: 400px;
   background: #fff;
-  margin-top: -10rem;
 }
 .footer .footer_container {
   padding: 60px 70px;
@@ -52,7 +51,7 @@ button {
   margin-right: 10px;
 }
 .footer .footer_container .listes .footer_list .imgs_list_item {
-  width: 180px;
+  width: 210px;
 }
 .footer .footer_container .listes .footer_list .imgs_list_item img {
   margin-left: 10px;

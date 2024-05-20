@@ -2,7 +2,7 @@
     max-width: $max_width;
     height: $footer_height;
     background: $light_color;
-    margin-top: -10rem;
+    // margin-top: -10rem;
     .footer_container {
         padding: $padding_y + 50 $padding_x;
 
@@ -28,7 +28,7 @@
                 }
 
                 .imgs_list_item {
-                    width: 180px;
+                    width: 210px;
 
                     img {
                         margin-left: 10px;
