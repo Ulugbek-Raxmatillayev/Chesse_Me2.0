@@ -3,3 +3,52 @@
 @import "visually-hidden";
 @import "normalize";
 @import "general";
+
+
+.elements{
+    .elements__element{
+        .elements__element-heading {
+            color: #4E2D2D;
+        }   
+        .element__items{
+            @include flex-between;
+        }
+    }
+    .title{
+        .title__heading {
+            color: #4E2D2D;
+        }
+        .title__content{
+            @include flex-between;
+            .title__content-item__p {
+                width: 260px;
+            }
+        }
+    }
+    .card{
+        .card__h3 {
+            color: #4E2D2D;
+        }
+        .card__cards {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            .card__cards-items {
+                background: #fff;
+                padding: 20px;
+            }
+        }
+    }
+    
+}
+.bg-img{
+    background-image: url(../img/Group\ 262.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    // height: 100%;
+    // width: 100%;
+    // background: rgb(254, 229, 183);
+    // background-image: url(../img/left.svg);
+    // background-size: 100%;
+}
