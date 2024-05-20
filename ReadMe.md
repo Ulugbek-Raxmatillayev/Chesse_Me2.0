@@ -11,6 +11,6 @@ ___<h1 align="center">`Cheese Making.`</h1>___
 
 <div>
     <h3 align="center">Through this website you can buy different cheeses of your choice.</h3>
-    <img src="../Chesse_Me2.0/assets/imgs/readmd-img.png">
+    <img src="./assets/imgs/readmd-img.png">
 </div>
 
