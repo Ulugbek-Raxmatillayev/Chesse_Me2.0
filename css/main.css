@@ -972,7 +972,8 @@ button {
   gap: 10px;
 }
 .retsept__container .card__title {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  margin-top: 5%;
 }
 .retsept__container button {
   padding: 7px 15px;
