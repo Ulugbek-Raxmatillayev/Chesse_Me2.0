@@ -944,20 +944,21 @@ button {
   position: absolute;
   bottom: 0px;
   color: #fff;
+  padding: 10px;
 }
 .retsept__container .retsept__card .retsept__item {
   width: 280px;
   height: 140px;
   position: relative;
 }
-.retsept__container .yaqinda__qushilgan .yaqinda__qushilgan__item {
-  padding: 10px;
+.retsept__container .yaqinda__qushilgan .yaqinda__qushilgan__title {
   background-color: #fff;
 }
-.retsept__container .yaqinda__qushilgan p {
+.retsept__container .yaqinda__qushilgan p,
+.retsept__container .yaqinda__qushilgan h5 {
   font-size: 16px;
-  color: rgb(137, 137, 137);
   width: 280px;
+  padding: 15px;
 }
 .retsept__container .yaqinda__qushilgan button {
   border: none;
@@ -980,6 +981,7 @@ button {
   border: 1px solid goldenrod;
   background: rgb(253, 147, 57);
   color: rgb(255, 255, 255);
+  margin-top: 5%;
 }
 
 .sir__tavsiv .tavsiv__title {
@@ -1027,6 +1029,61 @@ button {
   border: 1px solid goldenrod;
   background: rgb(253, 147, 57);
   color: rgb(255, 255, 255);
+}
+.sir__tavsiv .tayorlash__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #fff;
+}
+.sir__tavsiv .tayorlash__box h1 {
+  padding: 15px;
+  color: rgb(253, 147, 57);
+}
+.sir__tavsiv .tayorlash__box p {
+  line-height: 25px;
+  width: 800px;
+  padding: 15px;
+}
+.sir__tavsiv .mashxur__retseptlar__text ol {
+  list-style: disc;
+  margin-left: 20px;
+}
+.sir__tavsiv .mashxur__retseptlar__text p {
+  margin: 20px 0px;
+}
+.sir__tavsiv .vino__img {
+  margin: 20px 0px;
+}
+
+.popular__retsept .yaqinda__qushilgan_card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+.popular__retsept .yaqinda__qushilgan_card .yaqinda__qushilgan_item {
+  background-color: #fff;
+  width: 280px;
+}
+.popular__retsept .yaqinda__qushilgan_card .yaqinda__qushilgan_item p,
+.popular__retsept .yaqinda__qushilgan_card .yaqinda__qushilgan_item h5 {
+  padding: 10px 10px 0px 10px;
+}
+.popular__retsept .yaqinda__qushilgan_card button {
+  padding: 17px 7px;
+  border: none;
+  background-color: inherit;
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.davomi {
+  width: 150px;
+  margin: 5% auto;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1376,4 +1433,12 @@ ol, ul {
 img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
 }/*# sourceMappingURL=main.css.map */
