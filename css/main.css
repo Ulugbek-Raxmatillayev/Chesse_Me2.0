@@ -80,6 +80,9 @@ button {
   border-right: 1px solid #F4F0E6;
   align-items: center;
 }
+.header .header_container .header_ol_list .list_item {
+  cursor: pointer;
+}
 .header .header_container .header_ul_list {
   display: flex;
   gap: 15px;
@@ -87,6 +90,9 @@ button {
   align-items: center;
   border-right: 1px solid #F4F0E6;
   padding-right: 1rem;
+}
+.header .header_container .header_ul_list .list_item {
+  cursor: pointer;
 }
 .header .header_container .header_ul_list .list_item span {
   font-size: 16px;
@@ -104,6 +110,10 @@ button {
   color: #FD9339;
   display: flex;
   align-items: center;
+}
+.header .header_container .header_ul_list .list_item button:hover {
+  background: #FD9339;
+  color: #fff;
 }
 .header .header_container .header_ul_list .list_item button span {
   font-size: 12px;
@@ -258,9 +268,6 @@ button {
   background: transparent;
   border: none;
 }
-.header .navbar .nav_input_search input::-moz-placeholder {
-  font-family: sans-serif;
-}
 .header .navbar .nav_input_search input::placeholder {
   font-family: sans-serif;
 }
@@ -397,6 +404,7 @@ button {
   max-width: 280px;
   border: 1px solid #E6E6E6;
   background: #fff;
+  cursor: pointer;
   height: 48px;
 }
 .hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .list_item span {
@@ -433,6 +441,7 @@ button {
   max-width: 280px;
   border: 1px solid #E6E6E6;
   background: #fff;
+  cursor: pointer;
 }
 .hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .list_item span {
   width: 200px;
@@ -1160,8 +1169,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -1431,8 +1439,7 @@ ol, ul {
 }
 
 img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .d-block {
@@ -1441,4 +1448,4 @@ img {
 
 .d-none {
   display: none !important;
-}/*# sourceMappingURL=main.css.map */
+}
