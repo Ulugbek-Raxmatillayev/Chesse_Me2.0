@@ -1,5 +1,6 @@
 .prosmotr {
     margin-top: 10%;
+
     .prosmotr_container {
         .chevrons {
             max-width: $max_width;
@@ -21,6 +22,7 @@
                 font-family: $Roboto;
             }
         }
+
         .prosmotr_cardes {
             scroll-behavior: smooth !important;
             overflow: hidden;
