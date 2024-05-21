@@ -1,3 +1,4 @@
+// btn esho more starrt ////////////////////////////////////////////////
 let ckickMe = document.querySelector('.ckickMe');
 let retsept = document.querySelector('.retsept__container');
 let tavsiv = document.querySelector('.sir__tavsiv');
@@ -8,7 +9,9 @@ ckickMe.addEventListener('click', () => {
     popular.classList.toggle('d-none')
     tavsiv.classList.toggle('d-none')
 })
- 
+// btn esho more finish///////////////////////////////////////////////////////
+
+// CLOSE modalll starrt ///////////////////////////////////////////////////////
 let btnModal = document.querySelectorAll('.retsept__korzinka button') 
 let modal = document.querySelector('.modal__container') 
 let clos = document.querySelector('.modal__title') 
@@ -30,3 +33,5 @@ modal.addEventListener('click', (e) =>{
         modal.classList.toggle('d-none')
     }
 })
+
+// CLOSE modalll finish //////////////////////////////////////////////
