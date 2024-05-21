@@ -3,3 +3,113 @@
 @import "visually-hidden";
 @import "normalize";
 @import "general";
+@import "mixin";
+
+
+.content{
+    // padding: 30px;
+    // display: flex;
+    // justify-content: space-between;
+    .content__item {
+        // @include flex-between;
+        // display: flex;
+        // justify-content: space-between;
+        .content__item-heading{
+            h2{
+                color: #4E2D2D;
+            }
+        }
+        .content__item-items{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // gap: 10px;
+            .paragraf{
+                color: #FD9339;
+            }
+        }
+    }
+    .content__cards {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto ;
+        gap: 10px;
+        // justify-content: center;
+        .content__card{
+            width: 400px;
+            background: #fff;
+            padding: 10px;
+            .content__card-first{
+                @include flex-between;
+                .content__card-first-item1{
+                    margin: 0;
+                    color: #4E2D2D;
+                }
+                .content__card-first-item2{
+                    margin: 0;
+                    color: #808080;
+                }
+            }
+            .content__card-second {
+                color: #292929;
+                line-height: 1.7;
+            }
+            .content__card-third{
+                display: flex;
+                gap: 10px;
+            }
+            .content__card-fourth {
+                color: #808080;
+            }
+        }
+    }
+}
+
+
+.elements{
+    .elements__element{
+        .elements__element-heading {
+            color: #4E2D2D;
+        }   
+        .element__items{
+            @include flex-between;
+        }
+    }
+    .title{
+        .title__heading {
+            color: #4E2D2D;
+        }
+        .title__content{
+            @include flex-between;
+            .title__content-item__p {
+                width: 260px;
+            }
+        }
+    }
+    .card{
+        .card__h3 {
+            color: #4E2D2D;
+        }
+        .card__cards {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            .card__cards-items {
+                background: #fff;
+                padding: 20px;
+            }
+        }
+    }
+    
+}
+.bg-img{
+    background-image: url(../img/Group\ 262.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    // height: 100%;
+    // width: 100%;
+    // background: rgb(254, 229, 183);
+    // background-image: url(../img/left.svg);
+    // background-size: 100%;
+}
