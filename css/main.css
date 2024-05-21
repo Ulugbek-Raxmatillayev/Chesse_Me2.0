@@ -852,6 +852,9 @@ button {
   width: 118.5px;
 }
 
+.prosmotr {
+  margin-top: 10%;
+}
 .prosmotr .prosmotr_container .chevrons {
   max-width: 1680px;
   display: flex;
