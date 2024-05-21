@@ -9,15 +9,51 @@ html(lang="en")
         //- css link finish
     body 
         //- Aside Start
-        include  ./aside.pug
+        include  ../components/aside.pug
         //- Aside End
 
         //- Header Start
-        include ./header.pug
+        include ../components/header.pug
         //- Header End
 
         //- Main Start
         main.main
+          .modal__container.d-none
+            .modal__menu
+              .modal__title
+                h3 Выберите производителя
+                button 
+                  img(src="../assets/imgs/close btn.png")
+              .modal__box
+                img(src="../assets/imgs/modal__retsept.png")
+                .modal__text
+                  p Sacco, Италия 
+                    span 
+                      img(src="../assets/imgs/star.png", alt="")
+                  h4 Ароматообразующая закваска LH 100 LYO (10D)
+                  span 860 руб. / 1 шт.
+                  span 
+                    button В корзину
+              .modal__box
+                img(src="../assets/imgs/modal__retsept.png")
+                .modal__text
+                  p Sacco, Италия 
+                    span 
+                      img(src="../assets/imgs/star.png", alt="")
+                  h4 Ароматообразующая закваска LH 100 LYO (10D)
+                  span 860 руб. / 1 шт.
+                  span 
+                    button В корзину
+              .modal__box
+                img(src="../assets/imgs/modal__retsept.png")
+                .modal__text
+                  p Sacco, Италия 
+                    span 
+                      img(src="../assets/imgs/star.png", alt="")
+                  h4 Ароматообразующая закваска LH 100 LYO (10D)
+                  span 860 руб. / 1 шт.
+                  span 
+                    button В корзину
           //- Hero Start
           section.hero.container
               .hero_container
@@ -90,7 +126,7 @@ html(lang="en")
                             .dropright 
                                 img(src="../assets/logos/dropright.svg" alt="")
                   //- retsept menuu start
-                  .retsept__container.d-block
+                  .retsept__container.d-block.container
                     .retsept__sir 
                       h1.card__title рецепты сыров
                       .retsept__card
@@ -280,6 +316,6 @@ html(lang="en")
           //- Hero End
 
         //- Footer Start
-        include  ./footer.pug
+        include  ../components/footer.pug
         //- Footer End
         script(src='../js/no_enter.js')
