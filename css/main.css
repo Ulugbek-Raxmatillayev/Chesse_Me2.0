@@ -1017,19 +1017,22 @@ button {
 .sir__tavsiv .sir__haqida_img img {
   margin: 0px 15px;
 }
-.sir__tavsiv table {
-  width: 100%;
-}
-.sir__tavsiv .left-align {
-  text-align: left;
-}
-.sir__tavsiv .right-align {
-  text-align: right;
-}
 .sir__tavsiv .retsept__korzinka {
   background: rgb(255, 245, 214);
   padding: 20px;
   margin-top: 10px;
+}
+.sir__tavsiv .retsept__korzinka table {
+  width: 100%;
+}
+.sir__tavsiv .retsept__korzinka table button {
+  width: 93px;
+}
+.sir__tavsiv .retsept__korzinka .left-align {
+  text-align: left;
+}
+.sir__tavsiv .retsept__korzinka .right-align {
+  text-align: right;
 }
 .sir__tavsiv .retsept__korzinka .table__title {
   margin-top: 10px;
@@ -1506,6 +1509,10 @@ img {
 
 .d-none {
   display: none !important;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .content .content__item .content__item-heading h2 {
